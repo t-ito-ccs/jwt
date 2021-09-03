@@ -121,6 +121,13 @@ curl -i -X POST "http://localhost:8080/login" -d "username=***" -d "password=***
 curl -H GET "http://localhost:8080/api/hello" -H "Authorization: Bearer ***.***"
 ```
 
+Gitpodでの実行
+```
+psql -h localhost -f ./sql/01_db_create.sql
+psql -h localhost -d logindb -U gitpod -f ./sql/02_data_init.sql
+./gradlew bootRun
+```
+
 # Author
 # Licence
 
