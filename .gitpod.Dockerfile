@@ -1,4 +1,4 @@
-FROM gitpod/workspace-postgres
+FROM gitpod/workspace-postgres:commit-507a50aeb98b86396d8d3b705e1ed651ed0af6fe
 
 USER gitpod
 
