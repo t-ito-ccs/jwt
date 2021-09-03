@@ -5,7 +5,7 @@ SpringBoot,SpringSecurityを使用したJWTによるRestAPI認証処理サンプ
 
 ```
 PostgreSQL:10.15-1
-OpenJDK:14.0.1
+OpenJDK:16.0.1
 Eclipse:pleiades-2020-12-java-win-64bit_20201101
 ```
 
@@ -15,7 +15,7 @@ Eclipse:pleiades-2020-12-java-win-64bit_20201101
 Spring Initializer
 
 Project:Gradle Project
-Java:15
+Java:16
 Spring boot:2.4.2
 
 Group:ccs.education
