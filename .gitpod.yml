@@ -13,3 +13,8 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-preview
+
+# Gitpod neccesary vscode plugin to spring boot.
+vscode:
+  extensions:
+    - pivotal.vscode-boot-dev-pack
