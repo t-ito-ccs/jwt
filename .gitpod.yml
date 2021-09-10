@@ -1,4 +1,4 @@
-# Docker
+# Make docker container.
 image:
   file: .gitpod.Dockerfile
 
@@ -14,7 +14,7 @@ ports:
   - port: 3000
     onOpen: open-preview
 
-# Gitpod neccesary vscode plugin to spring boot.
+# Gitpod requires Vscode SpringBoot plugin.
 vscode:
   extensions:
     - pivotal.vscode-boot-dev-pack
